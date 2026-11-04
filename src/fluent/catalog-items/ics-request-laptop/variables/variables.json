@@ -1,0 +1,27 @@
+{
+  "itemKey": "ics-request-laptop",
+  "variables": [
+    {
+      "name": "requested_for",
+      "label": "Requested For",
+      "type": "reference",
+      "referenceTable": "sys_user",
+      "mandatory": true,
+      "order": 100
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "single_line_text",
+      "mandatory": true,
+      "order": 200
+    },
+    {
+      "name": "reason",
+      "label": "Reason",
+      "type": "multi_line_text",
+      "mandatory": true,
+      "order": 300
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "itemKey": "ics-request-laptop",
+  "notifications": [
+    {
+      "name": "ICS Request Laptop - Request Submitted",
+      "trigger": "request_submitted",
+      "recipients": [
+        "requested_for",
+        "opened_by"
+      ]
+    },
+    {
+      "name": "ICS Request Laptop - Approval Requested",
+      "trigger": "approval_requested",
+      "recipients": [
+        "line_manager"
+      ]
+    },
+    {
+      "name": "ICS Request Laptop - Approval Approved",
+      "trigger": "approval_approved",
+      "recipients": [
+        "requested_for",
+        "opened_by"
+      ]
+    },
+    {
+      "name": "ICS Request Laptop - Approval Rejected",
+      "trigger": "approval_rejected",
+      "recipients": [
+        "requested_for",
+        "opened_by"
+      ]
+    },
+    {
+      "name": "ICS Request Laptop - Catalog Task Created",
+      "trigger": "catalog_task_created",
+      "recipients": [
+        "assignment_group:BUS-AU-Aurora Technology Risk"
+      ]
+    }
+  ]
+}

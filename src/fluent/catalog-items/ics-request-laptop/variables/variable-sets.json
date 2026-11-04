@@ -1,0 +1,9 @@
+{
+  "itemKey": "ics-request-laptop",
+  "variableSets": [
+    {
+      "name": "ICS Request Laptop - Request Details",
+      "description": "Core request details for laptop provisioning."
+    }
+  ]
+}

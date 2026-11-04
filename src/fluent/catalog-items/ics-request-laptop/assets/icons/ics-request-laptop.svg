@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ICS Request Laptop icon">
+  <rect x="4" y="4" width="120" height="120" rx="20" fill="#ffffff" stroke="#0E4A72" stroke-width="4"/>
+  <path d="M34 22L80 34V104L34 90V22Z" fill="#0E4A72"/>
+  <path d="M80 34H104V104H80V34Z" fill="none" stroke="#0E4A72" stroke-width="6"/>
+  <rect x="60" y="56" width="6" height="18" fill="#ffffff"/>
+</svg>

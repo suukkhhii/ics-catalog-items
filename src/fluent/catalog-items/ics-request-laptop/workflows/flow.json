@@ -1,0 +1,26 @@
+{
+  "itemKey": "ics-request-laptop",
+  "name": "ICS Request Laptop - Fulfillment Flow",
+  "stages": [
+    "Submitted",
+    "Manager Approval",
+    "Catalog Task",
+    "Completed"
+  ],
+  "approval": {
+    "type": "line_manager",
+    "required": true,
+    "sourceVariable": "requested_for",
+    "sourceReferenceTable": "sys_user"
+  },
+  "postApprovalTasks": [
+    {
+      "type": "catalog_task",
+      "shortDescription": "Process ICS Request Laptop fulfillment",
+      "description": "Fulfill approved laptop request for Cloud Domain user.",
+      "assignmentGroup": "BUS-AU-Aurora Technology Risk",
+      "priority": "3 - Moderate",
+      "dueInBusinessDays": 3
+    }
+  ]
+}

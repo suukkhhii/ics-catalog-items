@@ -1,0 +1,12 @@
+{
+  "itemKey": "ics-request-laptop",
+  "policies": [
+    {
+      "name": "ICS Request Laptop - Justification Required",
+      "condition": "business_justification is not empty",
+      "actions": [
+        "Set business_justification mandatory"
+      ]
+    }
+  ]
+}

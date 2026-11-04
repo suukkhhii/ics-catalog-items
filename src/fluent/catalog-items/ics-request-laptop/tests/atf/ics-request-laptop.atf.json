@@ -1,0 +1,29 @@
+{
+  "itemKey": "ics-request-laptop",
+  "tests": [
+    {
+      "name": "ICS Request Laptop - Approval and Task Creation",
+      "steps": [
+        "Open catalog item",
+        "Populate required variables (requested_for, first_name, reason)",
+        "Submit request",
+        "Verify line manager approval created from requested_for",
+        "Approve request as line manager",
+        "Verify catalog task created",
+        "Verify catalog task assignment group is BUS-AU-Aurora Technology Risk"
+      ]
+    },
+    {
+      "name": "ICS Request Laptop - Rejection Path",
+      "steps": [
+        "Open catalog item",
+        "Populate required variables (requested_for, first_name, reason)",
+        "Submit request",
+        "Verify line manager approval created from requested_for",
+        "Reject request as line manager",
+        "Verify request state is closed/rejected",
+        "Verify no catalog task created"
+      ]
+    }
+  ]
+}

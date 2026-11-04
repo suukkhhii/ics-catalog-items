@@ -1,0 +1,12 @@
+{
+  "key": "ics-request-laptop",
+  "name": "ICS Request Laptop",
+  "summary": "Request laptop for Cloud Domain.",
+  "description": "Request laptop for Cloud Domain. Please note you need approval.",
+  "owner": "Abel Tuter",
+  "active": true,
+  "icon": "src/catalog-items/ics-request-laptop/assets/icons/ics-request-laptop.svg",
+  "catalog": "Service Catalogue",
+  "category": "IT for IT",
+  "approvalRequired": true
+}
